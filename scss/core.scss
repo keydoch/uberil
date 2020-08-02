@@ -1,0 +1,150 @@
+$primary-color: #474747;
+$button-color: #999c9e;
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  background-color: #2b2b2b;
+  header {
+    position: sticky;
+    top: 0px;
+    background-color: $primary-color;
+  }
+}
+
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  h1 {
+    color: white;
+    text-shadow: black 3px 3px;
+  }
+  #head-buttons {
+    width: 350px;
+    #nav-bar {
+			position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .activePage {
+        background-color: white;
+        color: black;
+      }
+      #activePage11 {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+      }
+      .activePage:hover {
+        background-color: white;
+        color: black;
+        cursor: not-allowed;
+      }
+      a {
+				position: relative;
+        background-color: $button-color;
+        padding: 15px 20px;
+        color: black;
+        text-decoration: none;
+        transition: .4s;
+				border-radius: 2px;
+      }
+      a:hover {
+        background-color: #5f6263;
+        color: white;
+        box-shadow: 3px 0px white;
+      }
+    }
+  }
+}
+
+
+// This is the Homebrew drop-down button list
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: .4s;
+}
+.dropbtn {
+  background-color: $button-color;
+	padding: 15px 20px;
+  border: none;
+	font-size: inherit;
+	font-family: 'Raleway', sans-serif;
+  transition: .4s;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+  transition: .4s;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: .4s;
+}
+.dropdown-content a:hover {
+	background-color: #ddd;
+  transition: .4s;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+  transition: .4s;
+}
+.dropdown:hover .dropbtn {
+	color: white;
+	background-color: #5f6263;
+	cursor: pointer;
+	box-shadow: 3px 0px white;
+  transition: .4s;
+}
+// This is the end of the drop-down list
+
+
+main {
+  margin-top: 50px;
+
+  article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: black 3px 3px;
+  }
+  #welcome-proceed {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+#dev-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  #under-dev {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    box-shadow: black 3px 3px;
+  }
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
