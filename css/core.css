@@ -101,6 +101,17 @@ main {
     background-color: white;
     padding: 20px;
     box-shadow: black 3px 3px; }
+  main .pdfdownload {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #999c9e;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  main .pdfdownload:hover {
+    box-shadow: 3px 3px black;
+    background-color: #5f6263;
+    color: white; }
   main #welcome-proceed {
     margin-left: auto;
     margin-right: auto; }

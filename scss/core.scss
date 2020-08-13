@@ -110,6 +110,8 @@ body {
 // This is the end of the drop-down list
 
 
+
+// This is the core content and articles styling.
 main {
   margin-top: 50px;
 
@@ -123,11 +125,25 @@ main {
     padding: 20px;
     box-shadow: black 3px 3px;
   }
+  .pdfdownload {
+    text-decoration: none;
+    padding: 15px;
+    background-color: $button-color;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .pdfdownload:hover {
+    box-shadow: 3px 3px black;
+    background-color: #5f6263;
+    color: white;
+  }
   #welcome-proceed {
     margin-left: auto;
     margin-right: auto;
   }
 }
+// End of Core content
 
 
 
