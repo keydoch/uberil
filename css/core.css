@@ -33,7 +33,8 @@ body {
       #header #head-buttons #nav-bar .activePage:hover {
         background-color: white;
         color: black;
-        cursor: not-allowed; }
+        cursor: not-allowed;
+        box-shadow: none; }
       #header #head-buttons #nav-bar a {
         position: relative;
         background-color: #999c9e;
@@ -63,7 +64,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #474747;
   min-width: 160px;
   z-index: 1;
   transition: .4s; }
@@ -87,7 +88,6 @@ body {
   color: white;
   background-color: #5f6263;
   cursor: pointer;
-  box-shadow: 3px 0px white;
   transition: .4s; }
 
 main {
