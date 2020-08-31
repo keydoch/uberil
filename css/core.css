@@ -103,7 +103,7 @@ main {
     box-shadow: black 3px 3px; }
   main .pdfdownload {
     text-decoration: none;
-    padding: 15px;
+    padding: 8px;
     background-color: #999c9e;
     color: black;
     margin-top: 50px;
