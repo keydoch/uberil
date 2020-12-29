@@ -146,9 +146,11 @@ main {
   }
   #discord-invite {
     width: 500px;
-    iframe {
-      margin-left: auto;
-      margin-right: auto;
+    #discord-center-class {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 50px;
     }
   }
 }
