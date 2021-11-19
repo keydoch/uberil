@@ -142,15 +142,6 @@ main #welcome-proceed {
   margin-left: auto;
   margin-right: auto;
 }
-main #discord-invite {
-  width: 500px;
-}
-main #discord-invite #discord-center-class {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px;
-}
 
 footer {
   background-color: #474747;
