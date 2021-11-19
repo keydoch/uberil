@@ -152,6 +152,14 @@ main #discord-invite #discord-center-class {
   margin: 50px;
 }
 
+footer {
+  background-color: #474747;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
 #dev-main {
   display: flex;
   align-items: center;

@@ -154,6 +154,14 @@ main {
     }
   }
 }
+
+footer {
+  background-color:$primary-color;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
 // End of Core content
 
 
@@ -175,3 +183,5 @@ td, th {
   border: 1px solid #ddd;
   padding: 8px;
 }
+
+
